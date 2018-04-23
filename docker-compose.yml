@@ -1,0 +1,37 @@
+version: '2'
+
+volumes:
+    logs:
+        driver: local
+
+services:
+    slim:
+        image: php:7-alpine
+        working_dir: /var/www
+        command: php -S 0.0.0.0:9000 -t public
+        environment:
+            docker: "true"
+        ports:
+            - 8080:8080
+        volumes:
+            - .:/var/www
+            - logs:/var/www/logs
+        links:
+            - db
+            
+    db:
+        image: mysql
+        ports:
+            - 3306:3306
+        environment:
+            MYSQL_DATABASE: my_db
+            MYSQL_USER: root
+            MYSQL_PASSWORD: root
+            
+    nginx:
+        image: nginx
+        ports:
+            - 8080:8080
+        links: 
+            - slim
+    

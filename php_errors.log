@@ -1,0 +1,517 @@
+[21-Apr-2018 18:48:37 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 18
+[21-Apr-2018 18:48:37 UTC] PHP Stack trace:
+[21-Apr-2018 18:48:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 18:52:35 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 23
+[21-Apr-2018 18:52:35 UTC] PHP Stack trace:
+[21-Apr-2018 18:52:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 18:53:21 UTC] PHP Parse error:  syntax error, unexpected '{', expecting ')' in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 23
+[21-Apr-2018 18:53:21 UTC] PHP Stack trace:
+[21-Apr-2018 18:53:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 18:53:25 UTC] PHP Parse error:  syntax error, unexpected '{', expecting ')' in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 23
+[21-Apr-2018 18:53:25 UTC] PHP Stack trace:
+[21-Apr-2018 18:53:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 19:04:35 UTC] PHP Fatal error:  Uncaught exception 'BadMethodCallException' with message 'Method response is not a valid method' in /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:126
+Stack trace:
+#0 /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php(29): Slim\App->__call('response', Array)
+#1 /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php(29): Slim\App->response()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php on line 126
+[21-Apr-2018 19:06:09 UTC] PHP Fatal error:  Uncaught exception 'BadMethodCallException' with message 'Method response is not a valid method' in /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:126
+Stack trace:
+#0 /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php(29): Slim\App->__call('response', Array)
+#1 /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php(29): Slim\App->response()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php on line 126
+[21-Apr-2018 19:07:32 UTC] PHP Fatal error:  Uncaught exception 'BadMethodCallException' with message 'Method resquest is not a valid method' in /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:126
+Stack trace:
+#0 /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php(29): Slim\App->__call('resquest', Array)
+#1 /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php(29): Slim\App->resquest()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php on line 126
+[21-Apr-2018 19:27:13 UTC] PHP Fatal error:  Call to undefined method Slim\Http\Request::header() in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 14
+[21-Apr-2018 19:27:13 UTC] PHP Stack trace:
+[21-Apr-2018 19:27:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 19:27:13 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 19:27:13 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 19:27:13 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 19:27:13 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 19:27:13 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 19:27:13 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 19:27:13 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 19:27:13 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 19:27:13 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 19:27:13 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:9-15}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 19:27:17 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 14
+[21-Apr-2018 19:27:17 UTC] PHP Stack trace:
+[21-Apr-2018 19:27:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 20:19:15 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 18
+[21-Apr-2018 20:19:15 UTC] PHP Stack trace:
+[21-Apr-2018 20:19:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 20:51:55 UTC] PHP Warning:  require_once(model/Usuario.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 12
+[21-Apr-2018 20:51:55 UTC] PHP Stack trace:
+[21-Apr-2018 20:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 20:51:55 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 20:51:55 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 20:51:55 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 20:51:55 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:51:55 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 20:51:55 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 20:51:55 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:51:55 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 20:51:55 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:51:55 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:9-22}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:51:55 UTC] PHP Fatal error:  require_once(): Failed opening required 'model/Usuario.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 12
+[21-Apr-2018 20:51:55 UTC] PHP Stack trace:
+[21-Apr-2018 20:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 20:51:55 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 20:51:55 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 20:51:55 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 20:51:55 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:51:55 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 20:51:55 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 20:51:55 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:51:55 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 20:51:55 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:51:55 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:9-22}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:52:59 UTC] PHP Warning:  require_once(../model/Usuario.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 12
+[21-Apr-2018 20:52:59 UTC] PHP Stack trace:
+[21-Apr-2018 20:52:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 20:52:59 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 20:52:59 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 20:52:59 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 20:52:59 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:52:59 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 20:52:59 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 20:52:59 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:52:59 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 20:52:59 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:52:59 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:9-22}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:52:59 UTC] PHP Fatal error:  require_once(): Failed opening required '../model/Usuario.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 12
+[21-Apr-2018 20:52:59 UTC] PHP Stack trace:
+[21-Apr-2018 20:52:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 20:52:59 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 20:52:59 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 20:52:59 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 20:52:59 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:52:59 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 20:52:59 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 20:52:59 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:52:59 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 20:52:59 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:52:59 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:9-22}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:55:19 UTC] PHP Warning:  Missing argument 3 for Usuario::__construct(), called in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 61 and defined in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/Usuario.php on line 10
+[21-Apr-2018 20:55:19 UTC] PHP Stack trace:
+[21-Apr-2018 20:55:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 20:55:19 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 20:55:19 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 20:55:19 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 20:55:19 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:55:19 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 20:55:19 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 20:55:19 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:55:19 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 20:55:19 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:55:19 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:9-22}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:55:19 UTC] PHP  12. UsuarioDAO->getUsuarios() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:15
+[21-Apr-2018 20:55:19 UTC] PHP  13. Usuario->__construct() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:61
+[21-Apr-2018 20:55:19 UTC] PHP Warning:  Missing argument 3 for Usuario::__construct(), called in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 61 and defined in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/Usuario.php on line 10
+[21-Apr-2018 20:55:19 UTC] PHP Stack trace:
+[21-Apr-2018 20:55:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 20:55:19 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 20:55:19 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 20:55:19 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 20:55:19 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:55:19 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 20:55:19 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 20:55:19 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:55:19 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 20:55:19 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:55:19 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:9-22}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:55:19 UTC] PHP  12. UsuarioDAO->getUsuarios() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:15
+[21-Apr-2018 20:55:19 UTC] PHP  13. Usuario->__construct() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:61
+[21-Apr-2018 20:57:57 UTC] PHP Fatal error:  Call to a member function header() on a non-object in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 13
+[21-Apr-2018 20:57:57 UTC] PHP Stack trace:
+[21-Apr-2018 20:57:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 20:57:57 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 20:57:57 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 20:57:57 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 20:57:57 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:57:57 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 20:57:57 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 20:57:57 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 20:57:57 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 20:57:57 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 20:57:57 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:9-24}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:19:17 UTC] PHP Catchable fatal error:  Object of class Slim\Http\Request could not be converted to string in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 45
+[21-Apr-2018 21:19:17 UTC] PHP Stack trace:
+[21-Apr-2018 21:19:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:19:17 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:19:17 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:19:17 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:19:17 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:19:17 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:19:17 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:19:17 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:19:17 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:19:17 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:19:17 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:42-54}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:24:41 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 45
+[21-Apr-2018 21:24:41 UTC] PHP Stack trace:
+[21-Apr-2018 21:24:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:24:41 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:24:41 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:24:41 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:24:41 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:24:41 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:24:41 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:24:41 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:24:41 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:24:41 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:24:41 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:42-54}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:28:20 UTC] PHP Fatal error:  Cannot use object of type Slim\Http\RequestBody as array in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 46
+[21-Apr-2018 21:28:20 UTC] PHP Stack trace:
+[21-Apr-2018 21:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:28:20 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:28:20 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:28:20 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:28:20 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:28:20 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:28:20 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:28:20 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:28:20 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:28:20 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:28:20 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:42-55}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:29:27 UTC] PHP Fatal error:  Cannot use object of type Slim\Http\RequestBody as array in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 46
+[21-Apr-2018 21:29:27 UTC] PHP Stack trace:
+[21-Apr-2018 21:29:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:29:27 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:29:27 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:29:27 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:29:27 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:29:27 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:29:27 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:29:27 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:29:27 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:29:27 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:29:27 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:42-55}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:29:56 UTC] PHP Fatal error:  Cannot use object of type Slim\Http\RequestBody as array in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 46
+[21-Apr-2018 21:29:56 UTC] PHP Stack trace:
+[21-Apr-2018 21:29:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:29:56 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:29:56 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:29:56 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:29:56 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:29:56 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:29:56 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:29:56 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:29:56 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:29:56 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:29:56 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:42-55}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:31:57 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 46
+[21-Apr-2018 21:31:57 UTC] PHP Stack trace:
+[21-Apr-2018 21:31:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:31:57 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:31:57 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:31:57 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:31:57 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:31:57 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:31:57 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:31:57 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:31:57 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:31:57 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:31:57 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:42-55}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:35:54 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php on line 50
+[21-Apr-2018 21:35:54 UTC] PHP Stack trace:
+[21-Apr-2018 21:35:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:35:54 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:35:54 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:35:54 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:35:54 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:35:54 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:35:54 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:35:54 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:35:54 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:35:54 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:35:54 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:42-55}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:46:15 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::affected_row() in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 59
+[21-Apr-2018 21:46:15 UTC] PHP Stack trace:
+[21-Apr-2018 21:46:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:46:15 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:46:15 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:46:15 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:46:15 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:46:15 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:46:15 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:46:15 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:46:15 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:46:15 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:46:15 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:46:15 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 21:48:34 UTC] PHP Warning:  mysql_affected_rows(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 59
+[21-Apr-2018 21:48:34 UTC] PHP Stack trace:
+[21-Apr-2018 21:48:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:48:34 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:48:34 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:48:34 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:48:34 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:48:34 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:48:34 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:48:34 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:48:34 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:48:34 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:48:34 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:48:34 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 21:48:34 UTC] PHP  13. mysql_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:59
+[21-Apr-2018 21:48:34 UTC] PHP Warning:  mysql_affected_rows(): A link to the server could not be established in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 59
+[21-Apr-2018 21:48:34 UTC] PHP Stack trace:
+[21-Apr-2018 21:48:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:48:34 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:48:34 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:48:34 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:48:34 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:48:34 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:48:34 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:48:34 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:48:34 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:48:34 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:48:34 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:48:34 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 21:48:34 UTC] PHP  13. mysql_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:59
+[21-Apr-2018 21:50:44 UTC] PHP Warning:  mysql_affected_rows() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 59
+[21-Apr-2018 21:50:44 UTC] PHP Stack trace:
+[21-Apr-2018 21:50:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:50:44 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:50:44 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:50:44 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:50:44 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:50:44 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:50:44 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:50:44 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:50:44 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:50:44 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:50:44 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:50:44 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 21:50:44 UTC] PHP  13. mysql_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:59
+[21-Apr-2018 21:53:37 UTC] PHP Warning:  mysql_affected_rows(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 59
+[21-Apr-2018 21:53:37 UTC] PHP Stack trace:
+[21-Apr-2018 21:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:53:37 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:53:37 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:53:37 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:53:37 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:53:37 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:53:37 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:53:37 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:53:37 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:53:37 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:53:37 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:53:37 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 21:53:37 UTC] PHP  13. mysql_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:59
+[21-Apr-2018 21:53:37 UTC] PHP Warning:  mysql_affected_rows(): A link to the server could not be established in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 59
+[21-Apr-2018 21:53:37 UTC] PHP Stack trace:
+[21-Apr-2018 21:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:53:37 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:53:37 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:53:37 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:53:37 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:53:37 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:53:37 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:53:37 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:53:37 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:53:37 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:53:37 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:53:37 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 21:53:37 UTC] PHP  13. mysql_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:59
+[21-Apr-2018 21:55:22 UTC] PHP Warning:  mysql_affected_rows(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 59
+[21-Apr-2018 21:55:22 UTC] PHP Stack trace:
+[21-Apr-2018 21:55:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:55:22 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:55:22 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:55:22 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:55:22 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:55:22 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:55:22 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:55:22 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:55:22 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:55:22 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:55:22 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:55:22 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 21:55:22 UTC] PHP  13. mysql_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:59
+[21-Apr-2018 21:55:22 UTC] PHP Warning:  mysql_affected_rows(): A link to the server could not be established in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 59
+[21-Apr-2018 21:55:22 UTC] PHP Stack trace:
+[21-Apr-2018 21:55:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 21:55:22 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 21:55:22 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 21:55:22 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 21:55:22 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:55:22 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 21:55:22 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 21:55:22 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 21:55:22 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 21:55:22 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:55:22 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 21:55:22 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 21:55:22 UTC] PHP  13. mysql_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:59
+[21-Apr-2018 22:00:12 UTC] PHP Warning:  mysql_affected_rows() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 60
+[21-Apr-2018 22:00:12 UTC] PHP Stack trace:
+[21-Apr-2018 22:00:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 22:00:12 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 22:00:12 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 22:00:12 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 22:00:12 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:00:12 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 22:00:12 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 22:00:12 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:00:12 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 22:00:12 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:00:12 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:00:12 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 22:00:12 UTC] PHP  13. mysql_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:60
+[21-Apr-2018 22:00:49 UTC] PHP Warning:  mysql_affected_rows(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 60
+[21-Apr-2018 22:00:49 UTC] PHP Stack trace:
+[21-Apr-2018 22:00:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 22:00:49 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 22:00:49 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 22:00:49 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 22:00:49 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:00:49 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 22:00:49 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 22:00:49 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:00:49 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 22:00:49 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:00:49 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:00:49 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 22:00:49 UTC] PHP  13. mysql_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:60
+[21-Apr-2018 22:00:49 UTC] PHP Warning:  mysql_affected_rows(): A link to the server could not be established in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 60
+[21-Apr-2018 22:00:49 UTC] PHP Stack trace:
+[21-Apr-2018 22:00:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 22:00:49 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 22:00:49 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 22:00:49 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 22:00:49 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:00:49 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 22:00:49 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 22:00:49 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:00:49 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 22:00:49 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:00:49 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:00:49 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 22:00:49 UTC] PHP  13. mysql_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:60
+[21-Apr-2018 22:01:32 UTC] PHP Warning:  mysqli_affected_rows() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 60
+[21-Apr-2018 22:01:32 UTC] PHP Stack trace:
+[21-Apr-2018 22:01:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 22:01:32 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 22:01:32 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 22:01:32 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 22:01:32 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:01:32 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 22:01:32 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 22:01:32 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:01:32 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 22:01:32 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:01:32 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:01:32 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 22:01:32 UTC] PHP  13. mysqli_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:60
+[21-Apr-2018 22:04:09 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 60
+[21-Apr-2018 22:04:09 UTC] PHP Stack trace:
+[21-Apr-2018 22:04:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 22:04:09 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 22:04:09 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 22:04:09 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 22:04:09 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:04:09 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 22:04:09 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 22:04:09 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:04:09 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 22:04:09 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:04:09 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:04:09 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 22:04:09 UTC] PHP  13. mysqli_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:60
+[21-Apr-2018 22:13:51 UTC] PHP Warning:  UsuarioDAO::deletarUsuario(): Property access is not allowed yet in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 60
+[21-Apr-2018 22:13:51 UTC] PHP Stack trace:
+[21-Apr-2018 22:13:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 22:13:51 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 22:13:51 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 22:13:51 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 22:13:51 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:13:51 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 22:13:51 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 22:13:51 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:13:51 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 22:13:51 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:13:51 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:13:51 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 22:14:58 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::affected_rows() in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 60
+[21-Apr-2018 22:14:58 UTC] PHP Stack trace:
+[21-Apr-2018 22:14:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 22:14:58 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 22:14:58 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 22:14:58 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 22:14:58 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:14:58 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 22:14:58 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 22:14:58 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:14:58 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 22:14:58 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:14:58 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:14:58 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 22:15:29 UTC] PHP Warning:  mysqli_stmt_affected_rows(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 60
+[21-Apr-2018 22:15:29 UTC] PHP Stack trace:
+[21-Apr-2018 22:15:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 22:15:29 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 22:15:29 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 22:15:29 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 22:15:29 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:15:29 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 22:15:29 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 22:15:29 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:15:29 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 22:15:29 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:15:29 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:15:29 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 22:15:29 UTC] PHP  13. mysqli_stmt_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:60
+[21-Apr-2018 22:15:49 UTC] PHP Warning:  mysqli_stmt_affected_rows() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 60
+[21-Apr-2018 22:15:49 UTC] PHP Stack trace:
+[21-Apr-2018 22:15:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 22:15:49 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 22:15:49 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 22:15:49 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 22:15:49 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:15:49 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 22:15:49 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 22:15:49 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:15:49 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 22:15:49 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:15:49 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:15:49 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 22:15:49 UTC] PHP  13. mysqli_stmt_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:60
+[21-Apr-2018 22:16:02 UTC] PHP Warning:  mysqli_stmt_affected_rows() expects parameter 1 to be mysqli_stmt, object given in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 60
+[21-Apr-2018 22:16:02 UTC] PHP Stack trace:
+[21-Apr-2018 22:16:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 22:16:02 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 22:16:02 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 22:16:02 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 22:16:02 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:16:02 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 22:16:02 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 22:16:02 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:16:02 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 22:16:02 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:16:02 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:16:02 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 22:16:02 UTC] PHP  13. mysqli_stmt_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:60
+[21-Apr-2018 22:16:32 UTC] PHP Warning:  mysqli_stmt_affected_rows(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php on line 60
+[21-Apr-2018 22:16:32 UTC] PHP Stack trace:
+[21-Apr-2018 22:16:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:0
+[21-Apr-2018 22:16:32 UTC] PHP   2. Slim\App->run() /home/ubuntu/workspace/ingresse/testeIngresse/public/index.php:30
+[21-Apr-2018 22:16:32 UTC] PHP   3. Slim\App->process() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:296
+[21-Apr-2018 22:16:32 UTC] PHP   4. Slim\App->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:388
+[21-Apr-2018 22:16:32 UTC] PHP   5. Slim\App->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:16:32 UTC] PHP   6. Slim\Route->run() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/App.php:495
+[21-Apr-2018 22:16:32 UTC] PHP   7. Slim\Route->callMiddlewareStack() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:313
+[21-Apr-2018 22:16:32 UTC] PHP   8. Slim\Route->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/MiddlewareAwareTrait.php:117
+[21-Apr-2018 22:16:32 UTC] PHP   9. Slim\Handlers\Strategies\RequestResponse->__invoke() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Route.php:335
+[21-Apr-2018 22:16:32 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:16:32 UTC] PHP  11. Closure->{closure:/home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:64-78}() /home/ubuntu/workspace/ingresse/testeIngresse/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php:41
+[21-Apr-2018 22:16:32 UTC] PHP  12. UsuarioDAO->deletarUsuario() /home/ubuntu/workspace/ingresse/testeIngresse/src/routes.php:70
+[21-Apr-2018 22:16:32 UTC] PHP  13. mysqli_stmt_affected_rows() /home/ubuntu/workspace/ingresse/testeIngresse/src/model/UsuarioDAO.php:60
