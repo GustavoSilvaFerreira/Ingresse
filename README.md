@@ -26,6 +26,9 @@ php composer.phar start
 ## Dentro do diretorio do projeto
 ./vendor/bin/phpunit OU php composer.phar test
 
+## Diretório do teste
+./tests/Functional
+
 
 # Curl
 ## Listar todos os usuarios:
@@ -40,7 +43,7 @@ curl -v -X POST https://aulaphp-gustavoferreira.c9users.io/ingresse/testeIngress
 
 ## Alterar usuario(mudar o id na rota por um válido):
 curl -v -X PUT https://aulaphp-gustavoferreira.c9users.io/ingresse/testeIngresse/public/index.php/usuario/2 -H 'Content-Type:application/json' \
--d '{"nome":"testeAlterar","email":"alterado2@hotmail.com"}'
+-d '{"nome":"teste","email":"teste@hotmail.com"}'
 
 ## Deletar usuario(mudar o id na rota por um válido):
-curl -v -X DELETE https://aulaphp-gustavoferreira.c9users.io/ingresse/testeIngresse/public/index.php/usuario/20 -H 'Content-Type:application/json'
+curl -v -X DELETE https://aulaphp-gustavoferreira.c9users.io/ingresse/testeIngresse/public/index.php/usuario/3 -H 'Content-Type:application/json'
