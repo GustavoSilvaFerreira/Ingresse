@@ -30,20 +30,20 @@ php composer.phar start
 ./tests/Functional
 
 
-# Curl
-## Listar todos os usuarios(mudar rota)::
-curl -v -X GET https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario -H 'Content-Type:application/json'
+# Curl - ### substituir base_url pela rota base
+## Listar todos os usuarios(mudar rota):
+curl -v -X GET <base_url>/ingresse/public/index.php/usuario -H 'Content-Type:application/json'
 
 ## Listar um usuario pelo id(mudar rota e o id por um válido):
-curl -v -X GET https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario/1 -H 'Content-Type:application/json'
+curl -v -X GET <base_url>/ingresse/public/index.php/usuario/1 -H 'Content-Type:application/json'
 
 ## Inserir Usuario:
-curl -v -X POST https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario -H 'Content-Type:application/json' \
+curl -v -X POST <base_url>/ingresse/public/index.php/usuario -H 'Content-Type:application/json' \
 -d '{"nome":"teste2","email":"teste2@hotmail.com"}'
 
 ## Alterar usuario(mudar rota e o id por um válido):
-curl -v -X PUT https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario/2 -H 'Content-Type:application/json' \
+curl -v -X PUT <base_url>/ingresse/public/index.php/usuario/2 -H 'Content-Type:application/json' \
 -d '{"nome":"teste","email":"teste@hotmail.com"}'
 
 ## Deletar usuario(mudar rota e o id por um válido):
-curl -v -X DELETE https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario/3 -H 'Content-Type:application/json'
+curl -v -X DELETE <base_url>/ingresse/public/index.php/usuario/3 -H 'Content-Type:application/json'
