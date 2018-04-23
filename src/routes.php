@@ -18,7 +18,6 @@ $app->get('/usuario', function (Request $request, Response $response, array $arg
             $array[] = array("id"=>$aux->getId(), "nome"=>$aux->getNome(),"email"=>$aux->getEmail());
         }
         echo $response->withJson($array, 200);
-        //return $response->withJson($array, 200);
     }else{
         $array = json_encode(array("response"=>"Nao existe usuarios cadastrados."));
         echo $response->withJson($array, 204);

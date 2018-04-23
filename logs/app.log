@@ -284,3 +284,22 @@
 [2018-04-23 02:31:13] slim-app.INFO: GET '/usuario' [] {"uid":"bf7d5ca"}
 [2018-04-23 02:31:50] slim-app.INFO: GET '/usuario' [] {"uid":"15fe9ef"}
 [2018-04-23 02:57:55] slim-app.INFO: GET '/usuario' [] {"uid":"5304784"}
+[2018-04-23 03:15:57] slim-app.INFO: GET '/usuario' [] {"uid":"ea24d84"}
+[2018-04-23 03:16:46] slim-app.INFO: GET '/usuario/1' [] {"uid":"40565b2"}
+[2018-04-23 03:17:10] slim-app.INFO: PUT '/usuario' - nome: testeAlterar email: alterado2@hotmail.com [] {"uid":"c3013c6"}
+[2018-04-23 03:18:04] slim-app.INFO: DELETE '/usuario/20' [] {"uid":"dfa6116"}
+[2018-04-23 03:20:31] slim-app.INFO: POST '/usuario' - nome: teste2 email: 1 [] {"uid":"6ae89ee"}
+[2018-04-23 03:22:33] slim-app.INFO: POST '/usuario' - nome: teste2 email: teste2@hotmail.com [] {"uid":"d0b60c3"}
+[2018-04-23 03:22:40] slim-app.INFO: POST '/usuario' - nome: teste2 email: teste2@hotmail.com [] {"uid":"47aa97f"}
+[2018-04-23 03:22:56] slim-app.INFO: GET '/usuario' [] {"uid":"1dd8a60"}
+[2018-04-23 03:23:08] slim-app.INFO: GET '/usuario/1' [] {"uid":"6953e8a"}
+[2018-04-23 03:23:22] slim-app.INFO: GET '/usuario/2' [] {"uid":"269b0c4"}
+[2018-04-23 03:24:18] slim-app.INFO: PUT '/usuario' - nome: teste email: teste@hotmail.com [] {"uid":"4446111"}
+[2018-04-23 03:24:45] slim-app.INFO: DELETE '/usuario/3' [] {"uid":"feaf179"}
+[2018-04-23 03:29:16] slim-app.INFO: GET '/usuario' [] {"uid":"b7b53b3"}
+[2018-04-23 03:36:08] slim-app.INFO: GET '/usuario' [] {"uid":"e22f231"}
+[2018-04-23 03:36:29] slim-app.INFO: GET '/usuario' [] {"uid":"ed028b1"}
+[2018-04-23 03:39:36] slim-app.INFO: GET '/usuario' [] {"uid":"9837726"}
+[2018-04-23 03:39:43] slim-app.INFO: GET '/usuario' [] {"uid":"a01f490"}
+[2018-04-23 03:40:26] slim-app.INFO: GET '/usuario' [] {"uid":"4ef8529"}
+[2018-04-23 11:51:35] slim-app.INFO: GET '/usuario' [] {"uid":"5e6d972"}
