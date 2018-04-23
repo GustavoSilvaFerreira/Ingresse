@@ -32,18 +32,18 @@ php composer.phar start
 
 # Curl
 ## Listar todos os usuarios:
-curl -v -X GET https://aulaphp-gustavoferreira.c9users.io/ingresse/testeIngresse/public/index.php/usuario -H 'Content-Type:application/json'
+curl -v -X GET https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario -H 'Content-Type:application/json'
 
 ## Listar um usuario pelo id(mudar o id na rota por um válido):
-curl -v -X GET https://aulaphp-gustavoferreira.c9users.io/ingresse/testeIngresse/public/index.php/usuario/1 -H 'Content-Type:application/json'
+curl -v -X GET https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario/1 -H 'Content-Type:application/json'
 
 ## Inserir Usuario:
-curl -v -X POST https://aulaphp-gustavoferreira.c9users.io/ingresse/testeIngresse/public/index.php/usuario -H 'Content-Type:application/json' \
+curl -v -X POST https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario -H 'Content-Type:application/json' \
 -d '{"nome":"teste2","email":"teste2@hotmail.com"}'
 
 ## Alterar usuario(mudar o id na rota por um válido):
-curl -v -X PUT https://aulaphp-gustavoferreira.c9users.io/ingresse/testeIngresse/public/index.php/usuario/2 -H 'Content-Type:application/json' \
+curl -v -X PUT https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario/2 -H 'Content-Type:application/json' \
 -d '{"nome":"teste","email":"teste@hotmail.com"}'
 
 ## Deletar usuario(mudar o id na rota por um válido):
-curl -v -X DELETE https://aulaphp-gustavoferreira.c9users.io/ingresse/testeIngresse/public/index.php/usuario/3 -H 'Content-Type:application/json'
+curl -v -X DELETE https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario/3 -H 'Content-Type:application/json'

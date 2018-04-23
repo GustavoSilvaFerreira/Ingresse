@@ -1,6 +1,4 @@
-FROM alpine
-
-RUN apk update
+FROM php:7-alpine
 
 ADD ./public /var/www
 
