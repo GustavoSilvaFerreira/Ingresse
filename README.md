@@ -31,19 +31,19 @@ php composer.phar start
 
 
 # Curl
-## Listar todos os usuarios:
+## Listar todos os usuarios(mudar rota)::
 curl -v -X GET https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario -H 'Content-Type:application/json'
 
-## Listar um usuario pelo id(mudar o id na rota por um válido):
+## Listar um usuario pelo id(mudar rota e o id por um válido):
 curl -v -X GET https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario/1 -H 'Content-Type:application/json'
 
 ## Inserir Usuario:
 curl -v -X POST https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario -H 'Content-Type:application/json' \
 -d '{"nome":"teste2","email":"teste2@hotmail.com"}'
 
-## Alterar usuario(mudar o id na rota por um válido):
+## Alterar usuario(mudar rota e o id por um válido):
 curl -v -X PUT https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario/2 -H 'Content-Type:application/json' \
 -d '{"nome":"teste","email":"teste@hotmail.com"}'
 
-## Deletar usuario(mudar o id na rota por um válido):
+## Deletar usuario(mudar rota e o id por um válido):
 curl -v -X DELETE https://aulaphp-gustavoferreira.c9users.io/ingresse/public/index.php/usuario/3 -H 'Content-Type:application/json'
